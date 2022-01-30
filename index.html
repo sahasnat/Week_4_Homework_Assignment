@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Loading Quiz Game</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" href="Assets/style.css" />
+    <link
+    href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap"
+    rel="stylesheet"
+  />
+  </head>
+  <body>
+    <header>   
+      <div id="count">
+      </div>
+      <div id= "highScore">
+      </div>
+      <div class="largeFont">
+        <h1>Coding Quiz Challenge</h1>
+        <h3>Try to answer the following code-related questions within the time limit. <br> Keep in mind that incorrect answers will penalize your score time by ten seconds</h3>
+      </div>
+     
+      <main>
+        <section class="hero" id="hero">
+            <div class="hero-form">
+           
+          </div>
+             <div class="start-btn">
+               
+              <button id="str-btn">Start Quiz</button>
+            </div>
+          <div class= "scoreBoard"></div>
+          </div>
+        </section>
+  
+      </main>
+
+  </header>
+
+    <div class="quizzContainer">
+      <div class="quizzCard">
+        <h2 class="quizzTitle"></h2>
+        <form class="quizzForm">
+          <div>
+            <input type="radio" class="input" id='a' />
+            <label for="question" ></label>
+          </div>
+          <div>
+            <input type="radio" class="input" id='b'/>
+            <label for="question"></label>
+          </div>
+          <div>
+            <input type="radio" class="input" id='c'/>
+            <label for="question"></label>
+          </div>
+          <div>
+            <input type="radio" class="input" id='d' />
+            <label for="question" ></label>
+          </div>
+        </form>
+        <div id="msg"></div>
+        <button class="btn-submit">Submit</button>
+      </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="Assets/script.js"></script>
+
+  </body>
+</html>
